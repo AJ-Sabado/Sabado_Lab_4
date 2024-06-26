@@ -15,11 +15,9 @@ public class Sabado_lab4_1 {
         
         String newName = "";
         
-        for (String s : splitOldName) {
-            newName += s.substring(0, 1).toUpperCase() + s.substring(1).toLowerCase();
-            newName += " ";
-        }
+        for (String s : splitOldName)
+            newName += s.substring(0, 1).toUpperCase() + s.substring(1).toLowerCase() + " ";
         
         JOptionPane.showMessageDialog(null, "Orginal name was " + originalName + "\nRepaired name is " + newName);
-    }
+    } 
 }
